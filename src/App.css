@@ -1,12 +1,31 @@
 .App {
-	display: flex;
-	min-height: 100vh;
-	flex-direction: column;
-	justify-content: space-between;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 html {
-  background-image: url("./Images/woodbg.jpeg") ; 
+  background-image: url("./Images/woodbg.jpeg");
   background-size: cover;
   height: 100%;
 }
+
+h1 {
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: white;
+  font-size: 7rem;
+}
+
+a {
+  color: white;
+}
+a:hover {
+  color: red;
+}
+
+.brush {
+    font-family: "Caveat Brush", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }

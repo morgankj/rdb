@@ -28,9 +28,9 @@ export default function Navbar() {
 const StyledNavbar = styled.div`
   display: flex;
   justify-content: space-between;
-  padding: 1%;
+  padding: 1% 2%;
   #mainLogo {
-    width: 9rem;
+    width: 9.5rem;
     display: flex;
     align-items: center;
     img {
@@ -39,13 +39,14 @@ const StyledNavbar = styled.div`
   }
   ul {
     display: flex;
+    justify-content: space-between;
     list-style-type: none;
     font-family: "Caveat Brush", cursive;
     font-weight: 400;
     font-style: normal;
     font-size: 3rem;
     li {
-      /* margin: 3%; */
+      padding: 1.5rem;
     }
   }
   a {

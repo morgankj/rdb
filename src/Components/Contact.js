@@ -1,5 +1,5 @@
 export default function Home() {
     return (
-      <p>Contact</p>
+      <h1 className="brush">CONTACT</h1>
     );
   }
