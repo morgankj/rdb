@@ -54,5 +54,6 @@ const StyledNavbar = styled.div`
   }
   a:hover {
     color: red;
+    filter: drop-shadow(3px 3px 3px black);
   }
 `;
