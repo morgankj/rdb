@@ -14,11 +14,14 @@ html {
 h1 {
   -webkit-text-stroke-width: 1.5px;
   -webkit-text-stroke-color: white;
-  font-size: 7rem;
+  font-size: 8rem;
 }
 
 h2 {
-  font-size: 4rem;
+  font-size: 5rem;
+}
+h3 {
+  font-size: 4.5rem;
 }
 
 a {
