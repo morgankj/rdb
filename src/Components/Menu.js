@@ -5,6 +5,13 @@ import ramen3 from "../Images/Menu/Ramen/ramen3.png";
 import ramen4 from "../Images/Menu/Ramen/ramen4.png";
 import ramen5 from "../Images/Menu/Ramen/ramen5.png";
 import ramen6 from "../Images/Menu/Ramen/ramen6.png";
+import lengua from "../Images/Menu/NotRamen/lengua.jpeg";
+import porkBelly from "../Images/Menu/NotRamen/porkbellytacos.jpeg";
+import polloAsado from "../Images/Menu/NotRamen/polloAsado.jpeg";
+import tako from "../Images/Menu/NotRamen/tako.jpeg";
+import hamachi from "../Images/Menu/NotRamen/hamachi.jpeg";
+import camaron from "../Images/Menu/NotRamen/camaron.jpeg";
+import karaage from "../Images/Menu/NotRamen/karaage.jpeg";
 
 export default function Home() {
   return (
@@ -18,12 +25,12 @@ export default function Home() {
             <div className="item" id="item1">
               <div className="pic"></div>
               <h5>Carnitas Tonkatsu</h5>
-              <p>Shoyu tare, pork bone broth, mixed carnitas, grilled pepper and onions. <b>Great for first time guests!</b></p>
+              <p>Pork bone broth, shoyu tare, mixed carnitas, grilled pepper and onions. <b>Best for first time guests!</b></p>
             </div>
             <div className="item" id="item2">
               <div className="pic"></div>
               <h5>Cochinita Tonkatsu</h5>
-              <p>Shoyu tare, cochinita pibil, pickled onions, avocado, tortilla strips.  <b>Great for first time guests!</b></p>
+              <p>Beef tripe, guajillo tare, hominy, arbol chilis, tortilla strips. <b>Pa la cruda!</b></p>
             </div>
             <div className="item" id="item3">
               <div className="pic"></div>
@@ -51,7 +58,7 @@ export default function Home() {
           <h2 className="brush">NOT RAMEN</h2>
           <div className="yakiTacos">
             <h3 className="brush">Yaki-Tacos</h3>
-            <h4>Robata skewers land on soft corn tortillas, with classic taco toppings.</h4>
+            <h4>Robata skewers on soft corn tortillas. Served with classic taco toppings.</h4>
             <div className="items">
               <div className="item" id="item1">
                 <div className="pic"></div>
@@ -77,17 +84,17 @@ export default function Home() {
           </div>
           <div className="tostadas">
             <h3 className="brush">Tostadas</h3>
-            <h4>Fried corn tortillas hosting bright and fresh seafood pairings.</h4>
+            <h4>Fried Corn tortillas hosting bright and fresh seafood pairings. Served cold.</h4>
             <div className="items">
               <div className="item" id="item1">
                 <div className="pic"></div>
                 <h5>Hamachi</h5>
-                <p>Diced hamachi, habanero mayo, agave, ponzo soaked cherry tomatoes, nori, guac.</p>
+                <p>Diced hamachi, habanero mayu, agave, ponzu-soaked cherry tomatoes, shallots, nori, guac.</p>
               </div>
               <div className="item" id="item2">
                 <div className="pic"></div>
                 <h5>Camaron</h5>
-                <p>Poached shrimp, mojo de ajo, kewpie, burnt orange, pickled habanero, yuzu tobiko, shiro goma, guac.</p>
+                <p>Poached shrimp, mojo de ajo, kewpie mayo, burnt orange, pickled habanero, yuzu tobiko, shiro goma, guac.</p>
               </div>
             </div>
           </div>
@@ -97,7 +104,7 @@ export default function Home() {
               <div className="item" id="item1">
                 <div className="pic"></div>
                 <h5>Karaage</h5>
-                <p>Kewpie, tomatillo kosho, agave.</p>
+                <p>Japanese fried chicken, kewpie mayo, tomatillo kosho, agave.</p>
               </div>
             </div>
           </div>
@@ -124,7 +131,7 @@ const StyledMenu = styled.div`
     color: white;
   }
   h5{
-    font-size: 3rem;
+    font-size: 3.5rem;
     padding: 1rem;
   }
   .menu {
@@ -170,5 +177,26 @@ const StyledMenu = styled.div`
   }
   #item6 .pic {
     background-image: url(${ramen2});
+  }
+  .yakiTacos #item1 .pic {
+    background-image: url(${lengua});
+  }
+  .yakiTacos #item2 .pic {
+    background-image: url(${porkBelly});
+  }
+  .yakiTacos #item3 .pic {
+    background-image: url(${polloAsado});
+  }
+  .yakiTacos #item4 .pic {
+    background-image: url(${tako});
+  }
+  .tostadas #item1 .pic {
+    background-image: url(${hamachi});
+  }
+  .tostadas #item2 .pic {
+    background-image: url(${camaron});
+  }
+  .forSharing #item1 .pic {
+    background-image: url(${karaage});
   }
 `;

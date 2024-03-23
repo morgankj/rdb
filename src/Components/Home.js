@@ -20,6 +20,7 @@ const StyledHome = styled.div`
     width: 100%;
   }
   h2 {
+    padding: 2% 15%;
     color: white;
     font-size: 2rem;
   }

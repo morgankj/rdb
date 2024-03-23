@@ -8,6 +8,13 @@ export default function Footer() {
         <a
           target="_blank"
           rel="noreferrer"
+          href="https://www.ramendelbarrio.com/"
+        >
+          <i class="fa-solid fa-globe"></i>
+        </a>
+        <a
+          target="_blank"
+          rel="noreferrer"
           href="https://www.instagram.com/ramen_del_barrio/?hl=en"
         >
           <i class="fa-brands fa-instagram fa-xl"></i>
